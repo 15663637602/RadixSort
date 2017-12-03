@@ -6,7 +6,7 @@ import java.util.Random;
 import core.List;
 
 /**
- * 
+ * Sortºº×Ö
  * @author yuqi li 2017/11/26
  */
 public class SortingUtils {
@@ -117,6 +117,7 @@ public class SortingUtils {
 			int random = r.nextInt(201) + 50;
 			l.insertFirst(random);
 		}
+		
 		System.out.println("Integer Bucket Sort Test: ");
 		System.out.println("before sort: \n" + l);
 		integerBucketSort(l, 50, 250);
